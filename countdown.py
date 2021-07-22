@@ -5,6 +5,7 @@ def display_countdown():
   microcontroller.display.print_str('AHOY')
   microcontroller.display.show()
   time.sleep(1)
+  microcontroller.display.clear()
   microcontroller.display.print_str('9')
   microcontroller.display.show()
   time.sleep(1)
@@ -35,8 +36,13 @@ def display_countdown():
   microcontroller.rainbow.set_pixel(5, 255, 0, 0)
   time.sleep(1)
   microcontroller.rainbow.show()
-  microcontroller.rainbow.set_pixel(6, 255, 0, 0)
+  microcontroller.rainbow.set_pixel(1, 0, 128, 0)
+  microcontroller.rainbow.set_pixel(2, 0, 128, 0)
+  microcontroller.rainbow.set_pixel(3, 0, 128, 0)
+  microcontroller.rainbow.set_pixel(4, 0, 128, 0)
+  microcontroller.rainbow.set_pixel(5, 0, 128, 0)
   microcontroller.rainbow.show()
+  time.sleep(10)
 
 
 display_countdown()
