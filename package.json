@@ -1,0 +1,16 @@
+{
+    "name": "launchPlatform",
+    "version": "0.0.1",
+    "description": "",
+    "main": "main.py",
+    "scripts": {
+        "start": "python main.py",
+        "test": "echo \"No test available\""
+    },
+    "author": "the4ang",
+    "license": "ISC",
+    "dependencies": {
+        "requests": "2.26.0"
+    },
+    "devDependencies": {}
+}
